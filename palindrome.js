@@ -7,3 +7,7 @@ function palindrome(string) {
     let processedContent = string.toLowerCase();
     return processedContent === reverse(processedContent); 
 }
+//Exercise to return an email with username and domain
+function emailParts(email) {
+    return email.toLowerCase().split("@");
+}
