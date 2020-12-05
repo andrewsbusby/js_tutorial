@@ -7,7 +7,13 @@ function palindrome(string) {
     let processedContent = string.toLowerCase();
     return processedContent === reverse(processedContent); 
 }
-//Exercise to return an email with username and domain
-function emailParts(email) {
-    return email.toLowerCase().split("@");
+//Defines a Phrase object.
+function Phrase(content) {
+    this.content = content;
+
+//Returns true if the phrase is a palindrome, false otherwise.
+this.palindrome = function palindrome() {
+    let processedContent = this.content.toLowerCase();
+    return processedContent === reverse(processedContent);
+    }
 }
