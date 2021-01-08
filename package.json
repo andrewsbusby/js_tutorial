@@ -1,28 +1,27 @@
 {
-    "name": "js_tutorial",
-      "version": "1.0.0",
-        "description": "palindrome tester",
-          "main": "main.js",
-            "dependencies": {
-                "abusby-palindrome": "^1.0.0"
-                  },
-                    "devDependencies": {},
-                      "scripts": {
-                          "test": "mocha"
-                            },
-                              "repository": {
-                                  "type": "git",
-                                      "url": "git+https://github.com/andrewsbusby/js_tutorial.git"
-                                        },
-                                          "keywords": [
-                                              "palindrome",
-                                                  "tester"
-                                                    ],
-                                                      "author": "abusby",
-                                                        "license": "ISC",
-                                                          "bugs": {
-                                                              "url": "https://github.com/andrewsbusby/js_tutorial/issues"
-                                                                },
-                                                                  "homepage": "https://github.com/andrewsbusby/js_tutorial#readme"
-                                                                  }
-  
+  "name": "js_tutorial",
+  "version": "1.0.0",
+  "description": "palindrome tester",
+  "main": "main.js",
+  "dependencies": {
+    "abusby-palindrome": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewsbusby/js_tutorial.git"
+  },
+  "keywords": [
+    "palindrome",
+    "tester"
+  ],
+  "author": "abusby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewsbusby/js_tutorial/issues"
+  },
+  "homepage": "https://github.com/andrewsbusby/js_tutorial#readme"
+}
